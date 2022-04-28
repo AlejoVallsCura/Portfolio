@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@200 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+/* -------------GENERAL-------------*/
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: black;
+}
+
+/* ------------------------------- */
+/* -------------VIDEO------------- */
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+#hero {
+    min-height: 100vh;
+    position: relative;
+
+}
+
+/* ------------------------------- */
+
+.principal {
+    margin-top: 17%;
+    color: white;
+    background-color: #000000;
+    padding: 18px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    display: inline-flex;
+    transition: .4s;
+    border-radius: 10px;
+}
+
+.principal:hover {
+    background-color: #42B881;
+    color: #000;
+}
+
+.principal {
+    animation-name: mianimacion;
+    animation-duration: 0.5s;
+    animation-iteration-count: 6;
+}
+
+@keyframes mianimacion {
+    0% {left:0%}
+    25%{left: 30px;}
+    50%{left:0%}
+    75%{right: 30px;}
+    100%{left:0%}
+}
+
+.contenido h1,
+h2 {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.contenido h1 {
+    font-size: 4rem;
+}
+
+.contenido h2 {
+    font-size: 2rem;
+}
+
+/* ------------------------------- */
+/* ----------CURRICULUM----------- */
+.download-cv {
+    padding: 10px 20px;
+    background-color: #dddddd;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 11px -4px #42B881;
+    transition: all 0.4s;
+}
+
+.download-cv:hover {
+    background-color: #42B881;
+    color: #fff;
+
+}
+
+/* ------------------------------- */
+/* -------------MENU-------------- */
+.menu {
+    background-color: #000;
+    letter-spacing: 3px;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    color: white;
+    display: block;
+    padding: 20px 50px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.menu ul li a:hover {
+    background-color: #42B881;
+}
+
+/* ------------------------------- */
+/* ----------FORMULARIO----------- */
+
+form {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+    box-shadow: 3px 3px 11px 4px black;
+}
+
+form input,
+h2,
+p,
+textarea {
+    margin-bottom: 1rem;
+}
+
+form textarea {
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0;
+}
+
+form input {
+    position: relative;
+    display: block;
+    height: 40px;
+    min-width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    transition: 0.4s;
+    border: 2px solid #000000;
+}
+
+form input.a:hover {
+    background-color: #42B881;
+}
+
+.div-contacto {
+    height: 700px;
+    background-image: url(/src/multimedia/fotos/bkg.jpg);
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div-contacto h2 {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* ------------------------------- */
+/* ----------SOCIAL BAR----------- */
+
+.social {
+    position: fixed;
+    right: 0;
+    top: 40%;
+    z-index: 2000;
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social ul li a {
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+
+.social ul li .icon-instagram {
+    background: #E1306C;
+    border-top-left-radius: 10px;
+}
+
+.social ul li .icon-github {
+    background: #000;
+}
+
+.social ul li .icon-linkedin {
+    background: #0E76A8;
+}
+
+.social ul li .icon-mail {
+    background: rgb(170, 40, 58);
+    border-bottom-left-radius: 10px;
+}
+
+/* ------------------------------- */
+/* ----------ABOUT ME------------- */
+
+.perfil {
+    width: 30%;
+    height: 100%;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+}
+
+.divisor {
+    width: 130px;
+    height: 4px;
+    background-color: #42B881;
+    margin-bottom: 2rem;
+}
+
+.about-info {
+    text-align: left;
+}
+
+.seccion-about {
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+}
+
+.about-info h2 {
+    font-size: 3em;
+}
+
+.about p {
+    margin-bottom: 1em;
+    font-size: x-large;
+}
+
+/* ------------------------------- */
+/* ------CONOCIMIENTOS------------ */
+
+
+.seccion-conocimiento {
+    padding: 30px;
+    background-color: #dddddd;
+    font-size: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion-conocimiento h2 {
+    border-bottom: 5px solid #42B881;
+    font-weight: bold;
+    padding: 10px;
+    height: 80px;
+    letter-spacing: 8px;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 300px;
+    padding: 10px;
+}
+
+.gallery__img {
+    object-fit: cover;
+    width: 150px;
+}
+
+
+/* ------------------------------- */
+/* ---------RESPONSIVE------------ */
+
+@media (min-width:200px) {
+
+    /* ---------HEAD------------ */
+    .contenido h1 {
+        display: flex;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .contenido h2 {
+        font-size: 1.4rem;
+        display: flex;
+        text-align: center;
+    }
+
+    /* ---------MENU------------ */
+
+    .menu {
+        font-size: small;
+        letter-spacing: 0px;
+        padding: 0px 0px;
+    }
+
+    /* ---------ABOUT------------ */
+    .about {
+        display: flex;
+    }
+
+    .about-info h2 {
+        font-size: 2.2em;
+    }
+
+    .about p {
+        margin-bottom: 1em;
+        font-size: medium;
+    }
+
+    /* ---------SOCIAL BAR------------ */
+    .social ul li a {
+        padding: 13px 15px;
+    }
+
+    /* ---------CONOCIMIENTO------------ */
+    .seccion-conocimiento h2 {
+        font-size: 2rem;
+    }
+
+    .galeria {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 130px;
+        padding: 10px;
+    }
+
+    .gallery__img {
+        object-fit: cover;
+        width: 90px;
+    }
+
+}
+
+@media (min-width:800px) {
+
+    /* ---------HEAD------------ */
+    .contenido h1 {
+        font-size: 4rem;
+    }
+
+    .contenido h2 {
+        font-size: 2rem;
+    }
+
+    /* ---------MENU------------ */
+
+    .menu {
+        font-size: large;
+        letter-spacing: 3px;
+        padding: 20px 50px;
+    }
+    
+
+    /* ---------ABOUT ME------------ */
+    .about {
+        display: flex;
+    }
+
+    .about-info h2 {
+        font-size: 3em;
+    }
+
+    .about p {
+        margin-bottom: 1em;
+        font-size: x-large;
+    }
+
+    /* ---------SOCIAL BAR------------ */
+    .social ul li a {
+        padding: 20px 25px;
+    }
+
+    /* ---------CONOCIMIENTO------------ */
+    .seccion-conocimiento h2 {
+        font-size: 4rem;
+        
+    }
+
+    .galeria {
+        display: grid;
+        margin-top: 90px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 260px;
+        padding: 15px;
+    }
+
+    .gallery__img {
+        object-fit: cover;
+        width: 190px;
+    }
+
+}
+
+
+/* ------------------------------- */
+/* ------SEPARADOR ESTETICO------- */
+
+.separador {
+    background-color: #000;
+    height: 100%;
+    height: 10px;
+}
+
+/* ------------------------------- */
+/* ----------FOTTER--------------- */
+
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    bottom: 0;
+    background-color: #000;
+    color: white;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+/* ------------------------------- */

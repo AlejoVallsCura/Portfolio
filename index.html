@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./css/style.css"">
+    <meta charset=" UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="Estilos.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="hero">
+            <div class="principal">
+                <div class="contenido">
+                    <h1><b>Soy Alejo Valls Cura! </b></h1>
+                    <h2>Full-Stack Developer</h2>
+                </div>
+            </div>
+
+            <video muted autoplay loop class="video">
+                <source src="./src/multimedia/fotos/videos/Video de fondo código HTML.mp4" />
+            </video>
+            <div class="capa"></div>
+        </div>
+    </header>
+    <main>
+        <div class="menu">
+            <ul>
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#about">Sobre Mi</a></li>
+                <li><a href="#conocimientos">Conocimientos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+
+        <div class="social">
+            <ul>
+                <li><a href="https://www.instagram.com/alejo_valls/" target="_blank" class="icon-instagram"></a></li>
+                <li><a href="https://github.com/AlejoVallsCura" target="_blank" class="icon-github"></a></li>
+                <li><a href="https://www.linkedin.com/in/valls-alejo/" target="_blank" class="icon-linkedin"></a></li>
+                <li><a href="mailto:alejo.valls.c@gmail.com" target="_blank" class="icon-mail"></a></li>
+            </ul>
+        </div>
+
+        <div class="about" id="about">
+            <img class="perfil" src="./src/multimedia/fotos/foto.jpg" alt="FotoPerfil">
+            <div class="seccion-about">
+                <div class="about-info">
+                    <h2>Quien Soy?</h2>
+                    <div class="divisor"></div>
+                    <p>Soy Alejo, tengo 20 años y actualmente vivo en Mendoza, Argentina, mi ciudad natal.</p>
+                    <p>Tengo una gran motivación para seguir perfeccionando habilidades y crecer profesionalmente.
+                        Confío
+                        plenamente en mi capacidad de producir ideas interesantes y desarrollarme en equipo tanto como
+                        individualmente.</p>
+                    <a href="src/multimedia/Currículum.pdf" target="_blank">
+                        <button class="download-cv" download="/Currículum.pdf">Download CV</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="separador"> </div>
+
+        <div class="seccion-conocimiento" id="conocimientos">
+            <h2>Conocimientos</h2>
+
+            <div class="galeria">
+                <div class="gallery__item-1">
+                    <img src="src/multimedia/fotos/js.png" alt="js" class="gallery__img">
+                </div>
+                <div class="gallery__item-2">
+                    <img src="src/multimedia/fotos/html.png" alt="html" class="gallery__img">
+                </div>
+                <div class="gallery__item-2">
+                    <img src="src/multimedia/fotos/css-3.png" alt="css" class="gallery__img">
+                </div>
+                <div class="gallery__item-4">
+                    <img src="src/multimedia/fotos/java.png" alt="java" class="gallery__img">
+                </div>
+                <div class="gallery__item-5">
+                    <img src="src/multimedia/fotos/mysql (1).png" alt="mysql" class="gallery__img">
+                </div>
+                <div class="gallery__item-6">
+                    <img src="src/multimedia/fotos/git.png" alt="git" class="gallery__img">
+                </div>
+            </div>
+        </div>
+
+        <div class="separador"> </div>
+
+        <div class="div-contacto" id="contacto">
+            <div class="contacto">
+                <h2 class="estilo-contactame">Contactame!</h2>
+                <div>
+                    <form>
+                        <p>Nombre</p>
+                        <input type="text">
+                        <p>Edad</p>
+                        <input type="number">
+                        <p>Mensaje</p>
+                        <textarea name="Mensaje" cols="30" rows="10"></textarea>
+                        <input class="a" type="submit">
+                        <input class="a" type="reset" value="Borrar">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <p>Contenido de Alejo Valls Cura. Todos los derechos reservados por Copyright ® 2022.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
