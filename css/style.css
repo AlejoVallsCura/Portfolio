@@ -177,7 +177,7 @@ form input {
 
 .div-contacto {
     height: 700px;
-    background-image: url(src/multimedia/fotos/bkg.jpg);
+    background-image: url(/src/multimedia/fotos/bkg.jpg);
     background-size: cover;
     text-align: center;
     justify-content: center;
