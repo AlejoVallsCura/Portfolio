@@ -1,0 +1,60 @@
+form {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+    box-shadow: 3px 3px 11px 4px black;
+
+    input,
+    h2,
+    p,
+    textarea {
+        margin-bottom: 1rem;
+    }
+}
+
+form textarea {
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0;
+}
+
+form input {
+    position: relative;
+    display: block;
+    height: 40px;
+    min-width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    transition: 0.4s;
+    border: 2px solid #000000;
+
+    &.a:hover {
+        background-color: #42B881;
+    }
+}
+
+.div-contacto {
+    height: 700px;
+    background-image: url(/src/multimedia/fotos/bkg.jpg);
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+    h2 {
+        font-size: 3rem;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+

@@ -1,0 +1,34 @@
+
+.perfil {
+    width: 30%;
+    height: 100%;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    p {
+        margin-bottom: 1em;
+        font-size: x-large;
+    }
+}
+
+.divisor {
+    width: 130px;
+    height: 4px;
+    background-color: #42B881;
+    margin-bottom: 2rem;
+}
+
+.about-info {
+    text-align: left;
+    h2 {
+        font-size: 3em;
+    }
+}
+
+.seccion-about {
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+}
