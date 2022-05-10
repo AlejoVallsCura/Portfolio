@@ -160,6 +160,7 @@ form textarea {
 }
 
 form input {
+
   position: relative;
   display: block;
   height: 40px;
@@ -183,6 +184,26 @@ form input.a:hover {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
+    position: relative;
+    display: block;
+    height: 30px;
+    min-width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    transition: 0.4s;
+    border: 2px solid #000000;
+}
+
+.div-contacto {
+    height: 700px;
+    background-image: url(../src/multimedia/fotos/bkg.jpg);
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 .div-contacto h2 {
   font-size: 3rem;
@@ -308,6 +329,7 @@ form input.a:hover {
     text-align: center;
   }
 
+
   /* ---------MENU------------ */
   .menu {
     font-size: small;
@@ -323,6 +345,21 @@ form input.a:hover {
   .about-info h2 {
     font-size: 2.2em;
   }
+
+    /* ---------ABOUT------------ */
+    .about {
+        display: block;
+    }
+
+    .about-info h2 {
+        font-size: 2em;
+    }
+
+    .about p {
+        margin-bottom: 2em;
+        font-size: medium;
+    }
+
 
   .about p {
     margin-bottom: 1em;
