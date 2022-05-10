@@ -1,0 +1,36 @@
+
+.social {
+    position: fixed;
+    right: 0;
+    top: 40%;
+    z-index: 2000;
+    ul {
+        list-style: none;
+        li a {
+            display: inline-block;
+            color: #fff;
+            background: #000;
+            padding: 20px 25px;
+            text-decoration: none;
+        }
+    }
+    
+}
+
+.social ul li .icon-instagram {
+    background: #E1306C;
+    border-top-left-radius: 10px;
+}
+
+.social ul li .icon-github {
+    background: #000;
+}
+
+.social ul li .icon-linkedin {
+    background: #0E76A8;
+}
+
+.social ul li .icon-mail {
+    background: rgb(170, 40, 58);
+    border-bottom-left-radius: 10px;
+}
