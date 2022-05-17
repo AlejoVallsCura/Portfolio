@@ -85,6 +85,12 @@ h2 .contenido h2 {
   position: relative;
 }
 
+.separador {
+  background-color: #000;
+  width: 100%;
+  height: 10px;
+}
+
 /* ------------------------------- */
 /* -------------MENU-------------- */
 /* ------------------------------- */
@@ -301,11 +307,8 @@ form input.a:hover {
     font-size: 2rem;
     text-align: center;
   }
-
-  .contenido h2 {
+  .contenido h1 h2 {
     font-size: 1.4rem;
-    display: flex;
-    text-align: center;
   }
 
   /* ---------MENU------------ */
@@ -319,14 +322,13 @@ form input.a:hover {
   .about {
     display: flex;
   }
-
-  .about-info h2 {
-    font-size: 2.2em;
-  }
-
   .about p {
     margin-bottom: 1em;
     font-size: medium;
+  }
+
+  .about-info h2 {
+    font-size: 2.2em;
   }
 
   /* ---------SOCIAL BAR------------ */
@@ -341,6 +343,7 @@ form input.a:hover {
 
   .galeria {
     display: grid;
+    margin-top: 15px;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 130px;
     padding: 10px;
@@ -356,8 +359,7 @@ form input.a:hover {
   .contenido h1 {
     font-size: 4rem;
   }
-
-  .contenido h2 {
+  .contenido h1 h2 {
     font-size: 2rem;
   }
 
@@ -372,14 +374,13 @@ form input.a:hover {
   .about {
     display: flex;
   }
-
-  .about-info h2 {
-    font-size: 3em;
-  }
-
   .about p {
     margin-bottom: 1em;
     font-size: x-large;
+  }
+
+  .about-info h2 {
+    font-size: 3em;
   }
 
   /* ---------SOCIAL BAR------------ */
@@ -409,7 +410,7 @@ form input.a:hover {
 /* ------SEPARADOR ESTETICO------- */
 .separador {
   background-color: #000;
-  height: 100%;
+  width: 100%;
   height: 10px;
 }
 

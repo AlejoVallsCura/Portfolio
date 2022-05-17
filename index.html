@@ -3,12 +3,12 @@
 
 <head>
     <link rel="stylesheet" href="./css/style.css"">
+    <meta name="description" content="Mi Portafolio con HTML + CSS + SASS + BOOTSTRAP">
     <meta charset=" UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Proyecto</title>
     <link rel="stylesheet" href="Estilos.css">
-    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -28,14 +28,16 @@
         </div>
     </header>
     <main>
-        <div class="menu">
-            <ul>
-                <li><a href="#hero">Inicio</a></li>
-                <li><a href="#about">Sobre Mi</a></li>
-                <li><a href="#conocimientos">Conocimientos</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </div>
+        <nav>
+            <div class="menu">
+                <ul>
+                    <li><a href="#hero">Inicio</a></li>
+                    <li><a href="#about">Sobre Mi</a></li>
+                    <li><a href="#conocimientos">Conocimientos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
 
         <div class="social">
             <ul>
@@ -98,12 +100,18 @@
                 <h2 class="estilo-contactame">Contactame!</h2>
                 <div>
                     <form>
-                        <p>Nombre</p>
-                        <input type="text">
-                        <p>Edad</p>
-                        <input type="number">
-                        <p>Mensaje</p>
-                        <textarea name="Mensaje" cols="30" rows="10"></textarea>
+                        <label for="name">Nombre
+                        <input type="text" name="name">
+                        </label>
+
+                        <label for="edad">Edad</label>
+                        <input type="number" name="edad">
+                        </label>
+
+                        <label for="Mensaje">Mensaje</label>
+                        <textarea name="Mensaje" cols="30" rows="10" name="Mensaje"></textarea>
+                        </label>
+                        
                         <input class="a" type="submit">
                         <input class="a" type="reset" value="Borrar">
                     </form>
@@ -119,4 +127,5 @@
     </footer>
 
 </body>
+
 </html>
